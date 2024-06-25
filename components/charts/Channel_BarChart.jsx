@@ -108,7 +108,7 @@ const BarChart = () => {
     };
   }, [data]);
 
-  return <canvas ref={acquisitions} className="!w-full"></canvas>;
+  return <canvas ref={acquisitions} className="!w-full mx-auto"></canvas>;
 };
 
 export default BarChart;

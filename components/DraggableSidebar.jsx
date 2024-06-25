@@ -37,7 +37,7 @@ const DraggableSidenav = () => {
   };
 
   return (
-    <div className="lg:h-full h-[312px] overflow-y-scroll lg:pt-8 lg:shadow-md lg:order-3 md:order-2 lg:mx-0 mx-auto lg:w-max w-full">
+    <div className="lg:h-full h-full sm:flex md:h-[312px] overflow-y-scroll lg:pt-8 lg:shadow-md lg:order-3 md:order-2 order-3 lg:mx-0 mx-auto lg:w-max w-full">
       <div className="lg:container h-full lg:w-[260px] w-full space-y-6">
         <Tabs defaultValue="components">
           <TabsList className="grid w-full grid-cols-2">
