@@ -119,9 +119,9 @@ const Sidenav = ({ children }) => {
                 </Tooltip>
               </TooltipProvider>
             )}
-            <TooltipProvider className="xl:hidden flex">
+            <TooltipProvider >
               <Tooltip>
-                <TooltipTrigger>
+                <TooltipTrigger className="xl:hidden flex">
                   <span className="text-white cursor-pointer hover:text-red-500 transition font-medium capitalize text-xl">
                     <HiLogout />
                   </span>

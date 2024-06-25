@@ -49,7 +49,7 @@ const DraggableSidenav = () => {
             </TabsTrigger>
           </TabsList>
           <TabsContent value="components">
-            <ul className="space-y-3">
+            <ul className="space-y-3 relative">
               {/* Draggable items */}
               {dragComp.map((item) => (
                 <Draggable
